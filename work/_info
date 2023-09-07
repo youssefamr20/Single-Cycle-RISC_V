@@ -1,0 +1,136 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/university/IC Digital design/ITI Verification/Risc-V/github
+vadder
+Z1 !s110 1694094816
+!i10b 1
+!s100 =4J7O;<Me=d8]kU8e3MTK0
+ICK;G4Y`?59XkAYRRa;b1T0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1694092953
+8adder.v
+Fadder.v
+L0 1
+Z3 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z4 !s108 1694094816.000000
+!s107 reg_file.v|main_dec.v|controller.v|alu_dec.v|alu.v|adder.v|
+Z5 !s90 adder.v|alu.v|alu_dec.v|controller.v|main_dec.v|reg_file.v|
+!i113 0
+Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tCvgOpt 0
+valu
+R1
+!i10b 1
+!s100 _URaP>@lW@S??iOJbbQ;N2
+ICa9i=3zK9Q6N^1M2`:6:W1
+R2
+R0
+w1694094252
+8alu.v
+Falu.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+Z8 !s107 reg_file.v|main_dec.v|controller.v|alu_dec.v|alu.v|adder.v|
+R5
+!i113 0
+R6
+R7
+valu_dec
+R1
+!i10b 1
+!s100 U=??LQzNVE==X<hcX16>z3
+ISRji8NFbH@G1o^A@@<Efo1
+R2
+R0
+w1694094419
+8alu_dec.v
+Falu_dec.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 0
+R6
+R7
+vcontroller
+R1
+!i10b 1
+!s100 m:=Hi27a7cX_S:OW45R9T0
+IXC;PM;i55XC?01U_SEQ<E0
+R2
+R0
+w1694094442
+8controller.v
+Fcontroller.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 0
+R6
+R7
+vmain_dec
+R1
+!i10b 1
+!s100 lfBDec@1OHNXnA@GDC?Z43
+IBjHnXaN``a@;caWjKQhGK0
+R2
+R0
+w1694094742
+8main_dec.v
+Fmain_dec.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 0
+R6
+R7
+vreg_file
+R1
+!i10b 1
+!s100 ITKjOl@O5AFT>;XFEYjT_0
+INVEjaf]QV?RI0><FV>jfU0
+R2
+R0
+w1694094802
+8reg_file.v
+Freg_file.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 0
+R6
+R7

@@ -7,7 +7,7 @@ module reg_file (
 	output wire [31:0] o_rd1, o_rd2 
 	);
 	
-	[31:0] registers [31:0] ;
+	reg [31:0] registers [31:0] ;
 	integer i ;
 
 	always @(posedge i_clk or negedge i_rst_n) begin
@@ -18,7 +18,7 @@ module reg_file (
 		end
 		else if (i_we3) 
 			begin
-				register[i_addr3] <= i_wd3 ; 
+				registers[i_addr3] <= i_wd3 ; 
 			end
 	end
 
