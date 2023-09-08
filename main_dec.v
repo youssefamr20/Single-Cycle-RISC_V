@@ -11,7 +11,7 @@ module main_dec (
 	output wire       o_jalr ) ;
 
 	reg [11:0] controls ;
-	assign {o_reg_write , o_immsrc , o_alu_src , o_mem_write , o_result_src ,  o_alu_op , o_branch , o_jump , jalr } = controls ;
+	assign {o_reg_write , o_immsrc , o_alu_src , o_mem_write , o_result_src ,  o_alu_op , o_branch , o_jump , o_jalr } = controls ;
 
 	always@(*) begin 
 		case (i_op)  

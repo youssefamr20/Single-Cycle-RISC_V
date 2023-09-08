@@ -1,0 +1,282 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim risc_tb -voptargs="+acc" -do "add wave * ;run -all" 
+# Start time: 12:57:28 on Sep 08,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.risc_tb(fast)
+# Loading work.risc_v_top(fast)
+# Loading work.instr_mem(fast)
+# Loading work.data_mem(fast)
+# Loading work.riscv_singlecycle(fast)
+# Loading work.data_path(fast)
+# Loading work.reg_file(fast)
+# Loading work.extend(fast)
+# Loading work.gen_mux(fast)
+# Loading work.alu(fast)
+# Loading work.adder(fast)
+# Loading work.gen_mux(fast__1)
+# Loading work.flip_flop(fast)
+# Loading work.controller(fast)
+# Loading work.main_dec(fast)
+# Loading work.alu_dec(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (3) for port 'i_funct7'. The port definition is at: alu_dec.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /risc_tb/u_risc/u_risc/u_ctrl/alu_dec File: controller.v Line: 30
+# add wave * 
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: 20100  Hostname: LAPTOP-OU38RCM8  ProcessID: 26956
+#           Attempting to use alternate WLF file "./wlftswv0ze".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftswv0ze
+# run -all
+# ** Note: $stop    : risc_tb.v(16)
+#    Time: 205 ns  Iteration: 1  Instance: /risc_tb
+# Break in Module risc_tb at risc_tb.v line 16
+add list \
+sim:/risc_tb/u_risc/u_risc/u_data_path/i_instr 
+add wave -position insertpoint  \
+sim:/risc_tb/u_risc/u_risc/u_data_path/u_alu/i_srca
+add wave -position insertpoint  \
+sim:/risc_tb/u_risc/u_risc/u_data_path/u_alu/i_srcb
+add wave -position insertpoint  \
+sim:/risc_tb/u_risc/u_risc/u_data_path/u_alu/o_alu_result
+add wave -position insertpoint  \
+sim:/risc_tb/u_risc/u_risc/u_data_path/u_alu/i_alu_ctrl
+add wave -position insertpoint  \
+sim:/risc_tb/u_risc/u_risc/u_data_path/u_alu/o_zero
+add wave -position insertpoint  \
+sim:/risc_tb/u_risc/u_risc/i_instr
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.risc_tb(fast)
+# Loading work.risc_v_top(fast)
+# Loading work.instr_mem(fast)
+# Loading work.data_mem(fast)
+# Loading work.riscv_singlecycle(fast)
+# Loading work.data_path(fast)
+# Loading work.reg_file(fast)
+# Loading work.extend(fast)
+# Loading work.gen_mux(fast)
+# Loading work.alu(fast)
+# Loading work.adder(fast)
+# Loading work.gen_mux(fast__1)
+# Loading work.flip_flop(fast)
+# Loading work.controller(fast)
+# Loading work.main_dec(fast)
+# Loading work.alu_dec(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (3) for port 'i_funct7'. The port definition is at: alu_dec.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /risc_tb/u_risc/u_risc/u_ctrl/alu_dec File: controller.v Line: 30
+run -all
+# ** Note: $stop    : risc_tb.v(16)
+#    Time: 205 ns  Iteration: 1  Instance: /risc_tb
+# Break in Module risc_tb at risc_tb.v line 16
+add list \
+sim:/risc_tb/u_risc/u_risc/i_instr 
+add watch \
+sim:/risc_tb/u_risc/u_risc/i_instr 
+add wave -position insertpoint  \
+sim:/risc_tb/u_risc/u_data_mem/mem
+add wave -position insertpoint  \
+sim:/risc_tb/u_risc/u_inst_mem/ram
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.risc_tb(fast)
+# Loading work.risc_v_top(fast)
+# Loading work.instr_mem(fast)
+# Loading work.data_mem(fast)
+# Loading work.riscv_singlecycle(fast)
+# Loading work.data_path(fast)
+# Loading work.reg_file(fast)
+# Loading work.extend(fast)
+# Loading work.gen_mux(fast)
+# Loading work.alu(fast)
+# Loading work.adder(fast)
+# Loading work.gen_mux(fast__1)
+# Loading work.flip_flop(fast)
+# Loading work.controller(fast)
+# Loading work.main_dec(fast)
+# Loading work.alu_dec(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (3) for port 'i_funct7'. The port definition is at: alu_dec.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /risc_tb/u_risc/u_risc/u_ctrl/alu_dec File: controller.v Line: 30
+run -all
+# ** Note: $stop    : risc_tb.v(16)
+#    Time: 205 ns  Iteration: 1  Instance: /risc_tb
+# Break in Module risc_tb at risc_tb.v line 16
+add wave -position insertpoint  \
+sim:/risc_tb/u_risc/u_risc/u_data_path/u_reg_file/registers
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.risc_tb(fast)
+# Loading work.risc_v_top(fast)
+# Loading work.instr_mem(fast)
+# Loading work.data_mem(fast)
+# Loading work.riscv_singlecycle(fast)
+# Loading work.data_path(fast)
+# Loading work.reg_file(fast)
+# Loading work.extend(fast)
+# Loading work.gen_mux(fast)
+# Loading work.alu(fast)
+# Loading work.adder(fast)
+# Loading work.gen_mux(fast__1)
+# Loading work.flip_flop(fast)
+# Loading work.controller(fast)
+# Loading work.main_dec(fast)
+# Loading work.alu_dec(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (3) for port 'i_funct7'. The port definition is at: alu_dec.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /risc_tb/u_risc/u_risc/u_ctrl/alu_dec File: controller.v Line: 30
+run -all
+# ** Note: $stop    : risc_tb.v(16)
+#    Time: 205 ns  Iteration: 1  Instance: /risc_tb
+# Break in Module risc_tb at risc_tb.v line 16
+add wave -position insertpoint  \
+sim:/risc_tb/u_risc/u_risc/u_ctrl/alu_dec/i_op
+add wave -position insertpoint  \
+sim:/risc_tb/u_risc/u_risc/u_ctrl/alu_dec/i_funct7
+add wave -position insertpoint  \
+sim:/risc_tb/u_risc/u_risc/u_ctrl/alu_dec/i_funct3
+add wave -position insertpoint  \
+sim:/risc_tb/u_risc/u_risc/u_ctrl/alu_dec/i_alu_op
+add wave -position insertpoint  \
+sim:/risc_tb/u_risc/u_risc/u_ctrl/alu_dec/o_alu_ctrl
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.risc_tb(fast)
+# Loading work.risc_v_top(fast)
+# Loading work.instr_mem(fast)
+# Loading work.data_mem(fast)
+# Loading work.riscv_singlecycle(fast)
+# Loading work.data_path(fast)
+# Loading work.reg_file(fast)
+# Loading work.extend(fast)
+# Loading work.gen_mux(fast)
+# Loading work.alu(fast)
+# Loading work.adder(fast)
+# Loading work.gen_mux(fast__1)
+# Loading work.flip_flop(fast)
+# Loading work.controller(fast)
+# Loading work.main_dec(fast)
+# Loading work.alu_dec(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (3) for port 'i_funct7'. The port definition is at: alu_dec.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /risc_tb/u_risc/u_risc/u_ctrl/alu_dec File: controller.v Line: 30
+run -all
+# ** Note: $stop    : risc_tb.v(16)
+#    Time: 205 ns  Iteration: 1  Instance: /risc_tb
+# Break in Module risc_tb at risc_tb.v line 16
+# Break key hit
+# Break key hit
+vlog *.v
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:23:19 on Sep 08,2023
+# vlog -reportprogress 300 adder.v alu.v alu_dec.v controller.v data_mem.v data_path.v extend.v flip_flop.v gen_mux.v instr_mem.v main_dec.v reg_file.v risc_tb.v risc_v_top.v riscv_singlecycle.v 
+# -- Compiling module adder
+# -- Compiling module alu
+# -- Compiling module alu_dec
+# -- Compiling module controller
+# -- Compiling module data_mem
+# -- Compiling module data_path
+# -- Compiling module extend
+# -- Compiling module flip_flop
+# -- Compiling module gen_mux
+# -- Compiling module instr_mem
+# -- Compiling module main_dec
+# -- Compiling module reg_file
+# -- Compiling module risc_tb
+# -- Compiling module risc_v_top
+# -- Compiling module riscv_singlecycle
+# 
+# Top level modules:
+# 	risc_tb
+# End time: 13:23:19 on Sep 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.risc_tb(fast)
+# Loading work.risc_v_top(fast)
+# Loading work.instr_mem(fast)
+# Loading work.data_mem(fast)
+# Loading work.riscv_singlecycle(fast)
+# Loading work.data_path(fast)
+# Loading work.reg_file(fast)
+# Loading work.extend(fast)
+# Loading work.gen_mux(fast)
+# Loading work.alu(fast)
+# Loading work.adder(fast)
+# Loading work.gen_mux(fast__1)
+# Loading work.flip_flop(fast)
+# Loading work.controller(fast)
+# Loading work.main_dec(fast)
+# Loading work.alu_dec(fast)
+run -all
+# ** Note: $stop    : risc_tb.v(16)
+#    Time: 205 ns  Iteration: 1  Instance: /risc_tb
+# Break in Module risc_tb at risc_tb.v line 16
+add watch \
+{sim:/risc_tb/u_risc/u_risc/u_data_path/u_reg_file/registers[3]} 
+add wave -position insertpoint  \
+sim:/risc_tb/u_risc/u_risc/u_data_path/alu_src_mux/i_sel
+add wave -position insertpoint  \
+sim:/risc_tb/u_risc/u_risc/u_data_path/alu_src_mux/i_out
+add watch \
+sim:/risc_tb/u_risc/u_risc/u_data_path/alu_src_mux/i_out 
+add wave -position insertpoint sim:/risc_tb/u_risc/u_risc/u_data_path/u_extend/*
+add wave -position insertpoint  \
+sim:/risc_tb/u_risc/u_risc/u_data_path/u_extend/i_immsrc
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.risc_tb(fast)
+# Loading work.risc_v_top(fast)
+# Loading work.instr_mem(fast)
+# Loading work.data_mem(fast)
+# Loading work.riscv_singlecycle(fast)
+# Loading work.data_path(fast)
+# Loading work.reg_file(fast)
+# Loading work.extend(fast)
+# Loading work.gen_mux(fast)
+# Loading work.alu(fast)
+# Loading work.adder(fast)
+# Loading work.gen_mux(fast__1)
+# Loading work.flip_flop(fast)
+# Loading work.controller(fast)
+# Loading work.main_dec(fast)
+# Loading work.alu_dec(fast)
+run -all
+# ** Note: $stop    : risc_tb.v(16)
+#    Time: 205 ns  Iteration: 1  Instance: /risc_tb
+# Break in Module risc_tb at risc_tb.v line 16
+add wave -position insertpoint  \
+sim:/risc_tb/u_risc/u_risc/u_data_path/u_reg_file/o_rd1
+add wave -position insertpoint  \
+sim:/risc_tb/u_risc/u_risc/u_data_path/u_reg_file/o_rd2
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.risc_tb(fast)
+# Loading work.risc_v_top(fast)
+# Loading work.instr_mem(fast)
+# Loading work.data_mem(fast)
+# Loading work.riscv_singlecycle(fast)
+# Loading work.data_path(fast)
+# Loading work.reg_file(fast)
+# Loading work.extend(fast)
+# Loading work.gen_mux(fast)
+# Loading work.alu(fast)
+# Loading work.adder(fast)
+# Loading work.gen_mux(fast__1)
+# Loading work.flip_flop(fast)
+# Loading work.controller(fast)
+# Loading work.main_dec(fast)
+# Loading work.alu_dec(fast)
+run -all
+# ** Note: $stop    : risc_tb.v(16)
+#    Time: 205 ns  Iteration: 1  Instance: /risc_tb
+# Break in Module risc_tb at risc_tb.v line 16

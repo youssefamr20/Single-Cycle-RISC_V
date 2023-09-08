@@ -8,129 +8,347 @@ z2
 !i10f 100
 cModel Technology
 Z0 dD:/university/IC Digital design/ITI Verification/Risc-V/github
+T_opt
+!s110 1694122795
+V6ZDcml3F_VNgzh__;MPMX2
+Z1 04 7 4 work risc_tb fast 0
+=1-8c8caa2bd659-64fa432b-253-694c
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1694123864
+V_ZUVWzm=0P@<bWT8?A<;o3
+R1
+=1-8c8caa2bd659-64fa4758-1f0-618
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1694168602
+Vn0O0PI9gz:j0L^z6c@eGO3
+R1
+=6-8c8caa2bd659-64faf61a-176-6c94
+R2
+R3
+n@_opt2
+R4
 vadder
-Z1 !s110 1694094816
+Z5 !s110 1694168599
 !i10b 1
 !s100 =4J7O;<Me=d8]kU8e3MTK0
 ICK;G4Y`?59XkAYRRa;b1T0
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z6 VDg1SIo80bB@j0V0VzS_@n1
 R0
 w1694092953
 8adder.v
 Fadder.v
 L0 1
-Z3 OL;L;10.7c;67
+Z7 OL;L;10.7c;67
 r1
 !s85 0
 31
-Z4 !s108 1694094816.000000
-!s107 reg_file.v|main_dec.v|controller.v|alu_dec.v|alu.v|adder.v|
-Z5 !s90 adder.v|alu.v|alu_dec.v|controller.v|main_dec.v|reg_file.v|
+Z8 !s108 1694168599.000000
+Z9 !s107 riscv_singlecycle.v|risc_v_top.v|risc_tb.v|reg_file.v|main_dec.v|instr_mem.v|gen_mux.v|flip_flop.v|extend.v|data_path.v|data_mem.v|controller.v|alu_dec.v|alu.v|adder.v|
+Z10 !s90 -reportprogress|300|adder.v|alu.v|alu_dec.v|controller.v|data_mem.v|data_path.v|extend.v|flip_flop.v|gen_mux.v|instr_mem.v|main_dec.v|reg_file.v|risc_tb.v|risc_v_top.v|riscv_singlecycle.v|
 !i113 0
-Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z7 tCvgOpt 0
+Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
 valu
-R1
+R5
 !i10b 1
-!s100 _URaP>@lW@S??iOJbbQ;N2
-ICa9i=3zK9Q6N^1M2`:6:W1
-R2
+!s100 MidU>:67z0YYzPKf9Klfe1
+IQj2f<lNF;D8W;2ABJ7[Za0
+R6
 R0
-w1694094252
+w1694166986
 8alu.v
 Falu.v
 L0 1
-R3
+R7
 r1
 !s85 0
 31
-R4
-Z8 !s107 reg_file.v|main_dec.v|controller.v|alu_dec.v|alu.v|adder.v|
-R5
+R8
+R9
+R10
 !i113 0
-R6
-R7
+R11
+R3
 valu_dec
-R1
+R5
 !i10b 1
 !s100 U=??LQzNVE==X<hcX16>z3
 ISRji8NFbH@G1o^A@@<Efo1
-R2
+R6
 R0
 w1694094419
 8alu_dec.v
 Falu_dec.v
 L0 1
-R3
+R7
 r1
 !s85 0
 31
-R4
 R8
-R5
+R9
+R10
 !i113 0
-R6
-R7
+R11
+R3
 vcontroller
-R1
+R5
 !i10b 1
-!s100 m:=Hi27a7cX_S:OW45R9T0
-IXC;PM;i55XC?01U_SEQ<E0
-R2
+!s100 ;UVO5z7LdeX_Oi_I;5dEA0
+IB:bDz12PK3dkEVR2TI^^i2
+R6
 R0
-w1694094442
+w1694168581
 8controller.v
 Fcontroller.v
 L0 1
-R3
+R7
 r1
 !s85 0
 31
-R4
 R8
-R5
+R9
+R10
 !i113 0
-R6
-R7
-vmain_dec
-R1
+R11
+R3
+vdata_mem
+R5
 !i10b 1
-!s100 lfBDec@1OHNXnA@GDC?Z43
-IBjHnXaN``a@;caWjKQhGK0
-R2
+!s100 ON8i;I^<_I[ho?_NiSK:C2
+IG1m;AHnfM4HWZ>ZkjLgiR0
+R6
 R0
-w1694094742
+w1694166377
+8data_mem.v
+Fdata_mem.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vdata_path
+R5
+!i10b 1
+!s100 jmY:ofL?fSIzV<hOJl<A52
+IUn_7Xim0bGD2dXYP3=biC3
+R6
+R0
+w1694165565
+8data_path.v
+Fdata_path.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vextend
+R5
+!i10b 1
+!s100 3_Lg@4m`e_KloOe5S:0j;0
+IAJOJT=36ohOQRl7Xo?E`D2
+R6
+R0
+w1694102233
+8extend.v
+Fextend.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vflip_flop
+R5
+!i10b 1
+!s100 PALX9ZFOLlRj9lQoli<P83
+IzUBj?Hd>U94l7hUkAm@CY3
+R6
+R0
+w1694123782
+8flip_flop.v
+Fflip_flop.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vgen_mux
+R5
+!i10b 1
+!s100 gE3AH1AR?7oKTV[GDA=Ja2
+IV?MVX`@jNj]R>i1jZe=N`1
+R6
+R0
+w1694097192
+8gen_mux.v
+Fgen_mux.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vinstr_mem
+R5
+!i10b 1
+!s100 1zOYj^O6<L5Y3;`3>0E7H2
+I5inU[c84NP@P_WcTenRNm3
+R6
+R0
+w1694118970
+8instr_mem.v
+Finstr_mem.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vmain_dec
+R5
+!i10b 1
+!s100 3JCfVf;eiYACnnf^lnkl82
+ICKLhR]]bHX3IF_YjWTIRa3
+R6
+R0
+w1694122769
 8main_dec.v
 Fmain_dec.v
 L0 1
-R3
+R7
 r1
 !s85 0
 31
-R4
 R8
-R5
+R9
+R10
 !i113 0
-R6
-R7
+R11
+R3
 vreg_file
-R1
+R5
 !i10b 1
 !s100 ITKjOl@O5AFT>;XFEYjT_0
 INVEjaf]QV?RI0><FV>jfU0
-R2
+R6
 R0
 w1694094802
 8reg_file.v
 Freg_file.v
 L0 1
-R3
+R7
 r1
 !s85 0
 31
-R4
 R8
-R5
+R9
+R10
 !i113 0
+R11
+R3
+vrisc_tb
+R5
+!i10b 1
+!s100 QEz=CV5_ZKEAo0<L;MLTN1
+Ii^GL?z`D:<GechAfAg<=i2
 R6
+R0
+w1694123813
+8risc_tb.v
+Frisc_tb.v
+L0 3
 R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vrisc_v_top
+R5
+!i10b 1
+!s100 m3<k=6N0`JAiC@H?KJmCD3
+I2I;elKU93hcYPB0k]<b_L1
+R6
+R0
+w1694119776
+8risc_v_top.v
+Frisc_v_top.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vriscv_singlecycle
+R5
+!i10b 1
+!s100 ^giZah_oR2e6UnD9>D58N0
+IMY4WlUjKDBLNz5lUNnFfB2
+R6
+R0
+w1694118641
+8riscv_singlecycle.v
+Friscv_singlecycle.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3

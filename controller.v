@@ -15,7 +15,7 @@ module controller (
 	assign o_pc_src = ( (i_zero & branch) | jump ) ? 01 : (jalr) ? 10 : 00  ;
 
 
-	main_decoder main_dec (
+	main_dec main_dec (
 	 .i_op(i_op) ,
 	 .o_result_src(o_result_src) ,
 	 .o_mem_write (o_mem_write) ,
@@ -27,9 +27,9 @@ module controller (
 	 .o_jump (jump) , 
 	 .o_jalr(jalr) );	
 
-	alu_decoder alu_dec (
+	alu_dec alu_dec (
 		 .i_funct3(i_funct3) ,
-	 	 .i_funct7(i_funct3) ,
+	 	 .i_funct7(i_funct7) ,
 	 	 .i_op(i_op[5]) ,
 		 .i_alu_op(alu_op) , 
 		 .o_alu_ctrl(o_alu_ctrl) );

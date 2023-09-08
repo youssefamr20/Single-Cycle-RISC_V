@@ -5,7 +5,7 @@ module alu (
 	output wire o_zero 
 	);
 	
-	assign o_zero = (o_alu_result==32'b0) ? 0 : 1 ;
+	assign o_zero =  ~|o_alu_result ;
 
 	always@(*) begin 
 		case(i_alu_ctrl) 
