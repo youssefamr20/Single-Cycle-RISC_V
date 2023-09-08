@@ -29,16 +29,16 @@ n@_opt1
 R4
 R0
 T_opt2
-!s110 1694168602
-Vn0O0PI9gz:j0L^z6c@eGO3
+!s110 1694177719
+V_bR0lKFD7kGdA`JBRQm^J3
 R1
-=6-8c8caa2bd659-64faf61a-176-6c94
+=13-8c8caa2bd659-64fb19b7-15-6c94
 R2
 R3
 n@_opt2
 R4
 vadder
-Z5 !s110 1694168599
+Z5 !s110 1694177716
 !i10b 1
 !s100 =4J7O;<Me=d8]kU8e3MTK0
 ICK;G4Y`?59XkAYRRa;b1T0
@@ -52,7 +52,7 @@ Z7 OL;L;10.7c;67
 r1
 !s85 0
 31
-Z8 !s108 1694168599.000000
+Z8 !s108 1694177716.000000
 Z9 !s107 riscv_singlecycle.v|risc_v_top.v|risc_tb.v|reg_file.v|main_dec.v|instr_mem.v|gen_mux.v|flip_flop.v|extend.v|data_path.v|data_mem.v|controller.v|alu_dec.v|alu.v|adder.v|
 Z10 !s90 -reportprogress|300|adder.v|alu.v|alu_dec.v|controller.v|data_mem.v|data_path.v|extend.v|flip_flop.v|gen_mux.v|instr_mem.v|main_dec.v|reg_file.v|risc_tb.v|risc_v_top.v|riscv_singlecycle.v|
 !i113 0
@@ -124,11 +124,11 @@ R3
 vdata_mem
 R5
 !i10b 1
-!s100 ON8i;I^<_I[ho?_NiSK:C2
-IG1m;AHnfM4HWZ>ZkjLgiR0
+!s100 I:CVf0JD^M`dHfzInTl``1
+IV2GciZUgn83H9WaGLP[Bb0
 R6
 R0
-w1694166377
+w1694177707
 8data_mem.v
 Fdata_mem.v
 L0 1
@@ -145,11 +145,11 @@ R3
 vdata_path
 R5
 !i10b 1
-!s100 jmY:ofL?fSIzV<hOJl<A52
-IUn_7Xim0bGD2dXYP3=biC3
+!s100 KeMXJ5eg89m6=7JVdhVnE3
+IFo3df=N=^C^AYSDWZ?gzO0
 R6
 R0
-w1694165565
+w1694173393
 8data_path.v
 Fdata_path.v
 L0 1
@@ -313,11 +313,11 @@ R3
 vrisc_v_top
 R5
 !i10b 1
-!s100 m3<k=6N0`JAiC@H?KJmCD3
-I2I;elKU93hcYPB0k]<b_L1
+!s100 7PRaBmV92E@56J`?Q]@V82
+IanD_@nZ9g466JQTUBbPE?2
 R6
 R0
-w1694119776
+w1694173429
 8risc_v_top.v
 Frisc_v_top.v
 L0 1
@@ -338,7 +338,7 @@ R5
 IMY4WlUjKDBLNz5lUNnFfB2
 R6
 R0
-w1694118641
+w1694173413
 8riscv_singlecycle.v
 Friscv_singlecycle.v
 L0 1

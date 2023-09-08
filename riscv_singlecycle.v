@@ -4,7 +4,7 @@ module riscv_singlecycle(
 	input wire [31:0] i_read_data ,
 	output wire [31:0] o_pc ,
 	output wire [31:0] o_write_data , o_data_addr ,
-	output wire o_mem_write  );
+	output wire o_mem_write );
 
 	wire reg_write , zero , alu_src ;
 	wire [1:0] pc_src , immsrc , result_src ;

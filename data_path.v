@@ -14,6 +14,8 @@ module data_path (
 	wire [31:0] result , reg_read_a , reg_read_b , immext , src_b , alu_result , pc , pc_target , pc_plus_4 , pc_next;
 
 	assign o_pc = pc ;
+	assign o_write_data = reg_read_b;
+	assign o_data_addr = alu_result ;
 
 	reg_file u_reg_file(
 	.i_clk(i_clk) ,

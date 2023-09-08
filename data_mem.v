@@ -16,10 +16,10 @@ module data_mem (
 			end
 		end
 		else if (i_we) begin
-			mem[i_addr[31:2]] <= i_write_data;
+			mem[i_addr[31:0]] <= i_write_data;
 		end
 	end
 
-	assign o_read_data = mem[i_addr[31:2]];
+	assign o_read_data = mem[i_addr[31:0]];
 
 endmodule

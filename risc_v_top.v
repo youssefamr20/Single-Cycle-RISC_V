@@ -2,7 +2,7 @@ module risc_v_top (
  	input wire i_clk ,
  	input wire i_rst_n );
 
-	wire [31:0] instruction , pc , write_data , data_addr , read_data ;
+	wire [31:0] instruction , pc , write_data , data_addr , read_data , alu_result ;
 	wire mem_write ;
 
 	instr_mem u_inst_mem(

@@ -280,3 +280,223 @@ run -all
 # ** Note: $stop    : risc_tb.v(16)
 #    Time: 205 ns  Iteration: 1  Instance: /risc_tb
 # Break in Module risc_tb at risc_tb.v line 16
+vlog *.v
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:33:11 on Sep 08,2023
+# vlog -reportprogress 300 adder.v alu.v alu_dec.v controller.v data_mem.v data_path.v extend.v flip_flop.v gen_mux.v instr_mem.v main_dec.v reg_file.v risc_tb.v risc_v_top.v riscv_singlecycle.v 
+# -- Compiling module adder
+# -- Compiling module alu
+# -- Compiling module alu_dec
+# -- Compiling module controller
+# -- Compiling module data_mem
+# -- Compiling module data_path
+# -- Compiling module extend
+# -- Compiling module flip_flop
+# -- Compiling module gen_mux
+# -- Compiling module instr_mem
+# -- Compiling module main_dec
+# -- Compiling module reg_file
+# -- Compiling module risc_tb
+# -- Compiling module risc_v_top
+# -- Compiling module riscv_singlecycle
+# 
+# Top level modules:
+# 	risc_tb
+# End time: 14:33:11 on Sep 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.risc_tb(fast)
+# Loading work.risc_v_top(fast)
+# Loading work.instr_mem(fast)
+# Loading work.data_mem(fast)
+# Loading work.riscv_singlecycle(fast)
+# Loading work.data_path(fast)
+# Loading work.reg_file(fast)
+# Loading work.extend(fast)
+# Loading work.gen_mux(fast)
+# Loading work.alu(fast)
+# Loading work.adder(fast)
+# Loading work.gen_mux(fast__1)
+# Loading work.flip_flop(fast)
+# Loading work.controller(fast)
+# Loading work.main_dec(fast)
+# Loading work.alu_dec(fast)
+run -all
+# ** Note: $stop    : risc_tb.v(16)
+#    Time: 205 ns  Iteration: 1  Instance: /risc_tb
+# Break in Module risc_tb at risc_tb.v line 16
+vlog *.v
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:34:17 on Sep 08,2023
+# vlog -reportprogress 300 adder.v alu.v alu_dec.v controller.v data_mem.v data_path.v extend.v flip_flop.v gen_mux.v instr_mem.v main_dec.v reg_file.v risc_tb.v risc_v_top.v riscv_singlecycle.v 
+# -- Compiling module adder
+# -- Compiling module alu
+# -- Compiling module alu_dec
+# -- Compiling module controller
+# -- Compiling module data_mem
+# -- Compiling module data_path
+# -- Compiling module extend
+# -- Compiling module flip_flop
+# -- Compiling module gen_mux
+# -- Compiling module instr_mem
+# -- Compiling module main_dec
+# -- Compiling module reg_file
+# -- Compiling module risc_tb
+# -- Compiling module risc_v_top
+# -- Compiling module riscv_singlecycle
+# 
+# Top level modules:
+# 	risc_tb
+# End time: 14:34:17 on Sep 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.risc_tb(fast)
+# Loading work.risc_v_top(fast)
+# Loading work.instr_mem(fast)
+# Loading work.data_mem(fast)
+# Loading work.riscv_singlecycle(fast)
+# Loading work.data_path(fast)
+# Loading work.reg_file(fast)
+# Loading work.extend(fast)
+# Loading work.gen_mux(fast)
+# Loading work.alu(fast)
+# Loading work.adder(fast)
+# Loading work.gen_mux(fast__1)
+# Loading work.flip_flop(fast)
+# Loading work.controller(fast)
+# Loading work.main_dec(fast)
+# Loading work.alu_dec(fast)
+run -all
+# ** Note: $stop    : risc_tb.v(16)
+#    Time: 205 ns  Iteration: 1  Instance: /risc_tb
+# Break in Module risc_tb at risc_tb.v line 16
+add wave -position insertpoint  \
+sim:/risc_tb/u_risc/u_data_mem/i_write_data
+add wave -position insertpoint  \
+sim:/risc_tb/u_risc/u_data_mem/i_we
+add wave -position insertpoint  \
+sim:/risc_tb/u_risc/u_data_mem/i_addr
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.risc_tb(fast)
+# Loading work.risc_v_top(fast)
+# Loading work.instr_mem(fast)
+# Loading work.data_mem(fast)
+# Loading work.riscv_singlecycle(fast)
+# Loading work.data_path(fast)
+# Loading work.reg_file(fast)
+# Loading work.extend(fast)
+# Loading work.gen_mux(fast)
+# Loading work.alu(fast)
+# Loading work.adder(fast)
+# Loading work.gen_mux(fast__1)
+# Loading work.flip_flop(fast)
+# Loading work.controller(fast)
+# Loading work.main_dec(fast)
+# Loading work.alu_dec(fast)
+run -all
+# ** Note: $stop    : risc_tb.v(16)
+#    Time: 205 ns  Iteration: 1  Instance: /risc_tb
+# Break in Module risc_tb at risc_tb.v line 16
+vlog *.v
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:44:03 on Sep 08,2023
+# vlog -reportprogress 300 adder.v alu.v alu_dec.v controller.v data_mem.v data_path.v extend.v flip_flop.v gen_mux.v instr_mem.v main_dec.v reg_file.v risc_tb.v risc_v_top.v riscv_singlecycle.v 
+# -- Compiling module adder
+# -- Compiling module alu
+# -- Compiling module alu_dec
+# -- Compiling module controller
+# -- Compiling module data_mem
+# -- Compiling module data_path
+# -- Compiling module extend
+# -- Compiling module flip_flop
+# -- Compiling module gen_mux
+# -- Compiling module instr_mem
+# -- Compiling module main_dec
+# -- Compiling module reg_file
+# -- Compiling module risc_tb
+# -- Compiling module risc_v_top
+# -- Compiling module riscv_singlecycle
+# 
+# Top level modules:
+# 	risc_tb
+# End time: 14:44:03 on Sep 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run -all
+# Break key hit
+# Break in Module risc_tb at risc_tb.v line 20
+
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.risc_tb(fast)
+# Loading work.risc_v_top(fast)
+# Loading work.instr_mem(fast)
+# Loading work.data_mem(fast)
+# Loading work.riscv_singlecycle(fast)
+# Loading work.data_path(fast)
+# Loading work.reg_file(fast)
+# Loading work.extend(fast)
+# Loading work.gen_mux(fast)
+# Loading work.alu(fast)
+# Loading work.adder(fast)
+# Loading work.gen_mux(fast__1)
+# Loading work.flip_flop(fast)
+# Loading work.controller(fast)
+# Loading work.main_dec(fast)
+# Loading work.alu_dec(fast)
+run -all
+# ** Note: $stop    : risc_tb.v(16)
+#    Time: 205 ns  Iteration: 1  Instance: /risc_tb
+# Break in Module risc_tb at risc_tb.v line 16
+add wave -position insertpoint  \
+sim:/risc_tb/rst_n
+add wave -position insertpoint  \
+sim:/risc_tb/clk
+vlog *.v
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:55:16 on Sep 08,2023
+# vlog -reportprogress 300 adder.v alu.v alu_dec.v controller.v data_mem.v data_path.v extend.v flip_flop.v gen_mux.v instr_mem.v main_dec.v reg_file.v risc_tb.v risc_v_top.v riscv_singlecycle.v 
+# -- Compiling module adder
+# -- Compiling module alu
+# -- Compiling module alu_dec
+# -- Compiling module controller
+# -- Compiling module data_mem
+# -- Compiling module data_path
+# -- Compiling module extend
+# -- Compiling module flip_flop
+# -- Compiling module gen_mux
+# -- Compiling module instr_mem
+# -- Compiling module main_dec
+# -- Compiling module reg_file
+# -- Compiling module risc_tb
+# -- Compiling module risc_v_top
+# -- Compiling module riscv_singlecycle
+# 
+# Top level modules:
+# 	risc_tb
+# End time: 15:55:16 on Sep 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.risc_tb(fast)
+# Loading work.risc_v_top(fast)
+# Loading work.instr_mem(fast)
+# Loading work.data_mem(fast)
+# Loading work.riscv_singlecycle(fast)
+# Loading work.data_path(fast)
+# Loading work.reg_file(fast)
+# Loading work.extend(fast)
+# Loading work.gen_mux(fast)
+# Loading work.alu(fast)
+# Loading work.adder(fast)
+# Loading work.gen_mux(fast__1)
+# Loading work.flip_flop(fast)
+# Loading work.controller(fast)
+# Loading work.main_dec(fast)
+# Loading work.alu_dec(fast)
+run -all
+# ** Note: $stop    : risc_tb.v(16)
+#    Time: 205 ns  Iteration: 1  Instance: /risc_tb
+# Break in Module risc_tb at risc_tb.v line 16
