@@ -29,16 +29,26 @@ n@_opt1
 R4
 R0
 T_opt2
-!s110 1694177719
-V_bR0lKFD7kGdA`JBRQm^J3
+!s110 1694247600
+V9n[SH1mI2_SUWbPD00TjK2
 R1
-=13-8c8caa2bd659-64fb19b7-15-6c94
+=1-8c8caa2bd659-64fc2aaf-38d-8954
 R2
 R3
 n@_opt2
 R4
+R0
+T_opt3
+!s110 1694312735
+VGWXN7=EHAKEoo4T:[k]Tk3
+R1
+=1-8c8caa2bd659-64fd291f-14-7e58
+R2
+R3
+n@_opt3
+R4
 vadder
-Z5 !s110 1694177716
+Z5 !s110 1694306466
 !i10b 1
 !s100 =4J7O;<Me=d8]kU8e3MTK0
 ICK;G4Y`?59XkAYRRa;b1T0
@@ -52,9 +62,9 @@ Z7 OL;L;10.7c;67
 r1
 !s85 0
 31
-Z8 !s108 1694177716.000000
-Z9 !s107 riscv_singlecycle.v|risc_v_top.v|risc_tb.v|reg_file.v|main_dec.v|instr_mem.v|gen_mux.v|flip_flop.v|extend.v|data_path.v|data_mem.v|controller.v|alu_dec.v|alu.v|adder.v|
-Z10 !s90 -reportprogress|300|adder.v|alu.v|alu_dec.v|controller.v|data_mem.v|data_path.v|extend.v|flip_flop.v|gen_mux.v|instr_mem.v|main_dec.v|reg_file.v|risc_tb.v|risc_v_top.v|riscv_singlecycle.v|
+Z8 !s108 1694306466.000000
+Z9 !s107 risc_v_top.v|riscv_singlecycle.v|reg_file.v|main_dec.v|instr_mem.v|gen_mux.v|flip_flop.v|extend.v|data_path.v|data_mem.v|controller.v|alu_dec.v|alu.v|adder.v|
+Z10 !s90 adder.v|alu.v|alu_dec.v|controller.v|data_mem.v|data_path.v|extend.v|flip_flop.v|gen_mux.v|instr_mem.v|main_dec.v|reg_file.v|riscv_singlecycle.v|risc_v_top.v|
 !i113 0
 Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R3
@@ -170,7 +180,7 @@ R5
 IAJOJT=36ohOQRl7Xo?E`D2
 R6
 R0
-w1694102233
+w1694304418
 8extend.v
 Fextend.v
 L0 1
@@ -290,31 +300,34 @@ R10
 R11
 R3
 vrisc_tb
-R5
+DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+!s110 1694312732
 !i10b 1
-!s100 QEz=CV5_ZKEAo0<L;MLTN1
-Ii^GL?z`D:<GechAfAg<=i2
+!s100 ZkEeUOWjKGK?G>2R:>?fe0
+IZz7EZFe=3_bNTViX<2EB31
 R6
+!s105 risc_tb_sv_unit
+S1
 R0
-w1694123813
-8risc_tb.v
-Frisc_tb.v
+w1694312726
+8risc_tb.sv
+Frisc_tb.sv
 L0 3
 R7
 r1
 !s85 0
 31
-R8
-R9
-R10
+!s108 1694312732.000000
+!s107 risc_tb.sv|
+!s90 risc_tb.sv|
 !i113 0
 R11
 R3
 vrisc_v_top
 R5
 !i10b 1
-!s100 7PRaBmV92E@56J`?Q]@V82
-IanD_@nZ9g466JQTUBbPE?2
+!s100 3oi:S`4P7Nk>W9e_E[^il2
+IV94n<NI7L:gKUahWn_D@X3
 R6
 R0
 w1694173429
@@ -334,8 +347,8 @@ R3
 vriscv_singlecycle
 R5
 !i10b 1
-!s100 ^giZah_oR2e6UnD9>D58N0
-IMY4WlUjKDBLNz5lUNnFfB2
+!s100 LL3Ti5[8Y]H_lE6>QX47A2
+Igl_n7dK993@QK2ddeMC]m2
 R6
 R0
 w1694173413
